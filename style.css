@@ -1,0 +1,85 @@
+.container{
+  position: relative;
+  width: 800px;
+  height: 800px;
+}
+.storeDiv{
+  width: 150px;
+  height: 200px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.storeDiv p{
+  font-size: 20px;
+  font-weight: bolder;
+}
+.store1{
+  position: absolute;
+}
+.store2{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.cube{
+  width: 25px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+}
+.cube-1{
+  position: absolute;
+  left: 20%;
+}
+.cube-2{
+  position: absolute;
+  right: 20%;
+}
+.throwBtn{
+  position: absolute;
+}
+.firstPlayerMove{
+  left: 25%;
+}
+.secondPlayerMove{
+  right: 25%;
+}
+
+.moveSection-1{
+  position: absolute;
+  top: 10%;
+  left: 35%;
+}
+.moveSection-2{
+  position: absolute;
+  top: 10%;
+  right: 35%;
+}
+.moveSection div{
+  border: 1px solid black;
+  width: 25px;
+  height: 25px;
+}
+.moveSection div p {
+  margin: 10px 0;
+}
+
+.actionDiv{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: absolute;
+  top: 30%;
+}
+.action-2{
+  right: 0;
+}
+.moveSection p{
+  position: absolute;
+  display: flex;
+}
