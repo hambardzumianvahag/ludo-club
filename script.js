@@ -373,7 +373,7 @@ playBtn.addEventListener('click', ()=>{
                 pieceBtn.innerHTML = pieceNumber
                 pieceBtn.addEventListener('click', () => {
                     let distance = num
-                    let success = movePiece(i, distance, active2, positions2, 'first')
+                    let success = movePiece(i, distance, active2, positions2, 'second')
                     if (success) {
                         checkWinner()
                         actionDiv.remove();
@@ -390,7 +390,7 @@ playBtn.addEventListener('click', ()=>{
           // if only one active element
           if(active2.length === 1){
             let distance = num
-            let success = movePiece(0, distance, active2, positions2, 'first')
+            let success = movePiece(0, distance, active2, positions2, 'second')
             if(success){
               checkWinner();
             }
@@ -416,7 +416,7 @@ playBtn.addEventListener('click', ()=>{
               pieceBtn.innerHTML = pieceNumber
               pieceBtn.addEventListener('click', () => {
                   let distance = num
-                  let success = movePiece(i, distance, active2, positions2, 'first')
+                  let success = movePiece(i, distance, active2, positions2, 'second')
                   if (success) {
                       checkWinner();
                       actionDiv.remove()
